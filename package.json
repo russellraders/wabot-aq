@@ -10,7 +10,7 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node . --autoread --server --db https://json-server.russellraders.repl.co",
     "test": "node test.js"
   },
   "keywords": [
